@@ -34,8 +34,8 @@ import (
 	"github.com/spf13/cobra"
 	"golang.org/x/sync/errgroup"
 
-	"k8s.io/client-go/1.5/kubernetes"
-	"k8s.io/client-go/1.5/rest"
+	"k8s.io/client-go/kubernetes"
+	"k8s.io/client-go/rest"
 
 	"tkestack.io/kvass/pkg/coordinator"
 	"tkestack.io/kvass/pkg/discovery"
